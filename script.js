@@ -53,15 +53,37 @@
     });
   });
 
-  /* Form submit */
-  form.addEventListener('submit', (e) => {
+  /* Form submit -> Formspree */
+  const FORM_ENDPOINT = 'https://formspree.io/f/xjgzgzgd';
+  form.addEventListener('submit', async (e) => {
     e.preventDefault();
     if (!form.checkValidity()) {
       form.reportValidity();
       return;
     }
-    form.hidden = true;
-    success.hidden = false;
+    const submitBtn = form.querySelector('button[type="submit"]');
+    const originalHTML = submitBtn ? submitBtn.innerHTML : '';
+    if (submitBtn) {
+      submitBtn.disabled = true;
+      submitBtn.innerHTML = '<span class="btn__dot"></span> 전송 중...';
+    }
+    try {
+      const res = await fetch(FORM_ENDPOINT, {
+        method: 'POST',
+        body: new FormData(form),
+        headers: { Accept: 'application/json' }
+      });
+      if (!res.ok) throw new Error('submit failed: ' + res.status);
+      form.hidden = true;
+      success.hidden = false;
+    } catch (err) {
+      console.error(err);
+      alert('신청 중 오류가 발생했습니다. 잠시 후 다시 시도해주세요.');
+      if (submitBtn) {
+        submitBtn.disabled = false;
+        submitBtn.innerHTML = originalHTML;
+      }
+    }
   });
 
   /* ---------- mobile accordion toggle ---------- */
