@@ -64,6 +64,27 @@
     success.hidden = false;
   });
 
+  /* ---------- mobile accordion toggle ---------- */
+  $$('.services__head').forEach((head) => {
+    const toggle = document.createElement('span');
+    toggle.className = 'services__toggle';
+    toggle.setAttribute('aria-hidden', 'true');
+    toggle.textContent = '+';
+    head.appendChild(toggle);
+    head.addEventListener('click', () => {
+      if (window.matchMedia('(max-width: 900px)').matches) {
+        const section = head.closest('.services');
+        section.classList.toggle('is-open');
+        if (section.classList.contains('is-open')) {
+          // smooth scroll to keep header in view
+          setTimeout(() => {
+            head.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }, 80);
+        }
+      }
+    });
+  });
+
   /* ---------- filter chips ---------- */
   const chips = $$('.chip');
   const cards = $$('.card');
