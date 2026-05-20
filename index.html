@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>RICHRUN — 대표님은 마케터</title>
+<meta name="description" content="RICHRUN — 검색노출, 상위노출, 리뷰, 바이럴, 콘텐츠, 글로벌, 퍼포먼스 광고까지. 대표님이 직접 운영하는 셀프 마케팅 콘솔." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=JetBrains+Mono:wght@400;500;700&family=Big+Shoulders+Display:wght@600;800;900&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" rel="stylesheet">
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- Grid overlay + grain -->
+<div class="bg-grid" aria-hidden="true"></div>
+<div class="bg-grain" aria-hidden="true"></div>
+<div class="bg-glow" aria-hidden="true"></div>
+
+<!-- TOP TICKER -->
+<div class="ticker" aria-hidden="true">
+  <div class="ticker__track">
+    <span>● RICHRUN — SELF MARKETING CONSOLE</span>
+    <span>● 누적 운영 3,500+ 브랜드</span>
+    <span>● 평균 노출 상승 4.7×</span>
+    <span>● 24시간 작전실 대응</span>
+    <span>● RICHRUN — SELF MARKETING CONSOLE</span>
+    <span>● 누적 운영 3,500+ 브랜드</span>
+    <span>● 평균 노출 상승 4.7×</span>
+    <span>● 24시간 작전실 대응</span>
+  </div>
+</div>
+
+<!-- HEADER -->
+<header class="site-header">
+  <div class="container header__inner">
+    <a href="#top" class="logo" aria-label="RICHRUN home">
+      <span class="logo__mark">
+        <span class="logo__dot-grid"></span>
+        <span class="logo__letters">RR</span>
+      </span>
+      <span class="logo__wordmark">RICHRUN</span>
+    </a>
+    <nav class="nav" aria-label="primary">
+      <a href="#services">전체 서비스</a>
+      <a href="#viral">바이럴</a>
+      <a href="#global">글로벌</a>
+      <a href="#performance">퍼포먼스</a>
+      <a href="#contact">파트너십</a>
+    </nav>
+    <div class="header__cta">
+      <button type="button" class="btn btn--ghost" id="login-btn">로그인</button>
+      <button class="btn btn--primary" data-popup="diagnose">
+        <span class="btn__dot"></span>
+        1분 무료진단
+      </button>
+    </div>
+    <button class="hamburger" aria-label="menu" id="mobile-toggle">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="top">
+  <div class="container hero__grid">
+    <div class="hero__left">
+      <div class="hero__meta">
+        <span class="meta__line"></span>
+        <span class="meta__tag">SELF MARKETING / OPS / 2026</span>
+      </div>
+      <h1 class="hero__title">
+        <span class="hero__line">대표님은</span>
+        <span class="hero__line hero__line--accent">마케터</span>
+      </h1>
+      <p class="hero__sub">
+        장소 · 매장 · 바이럴 · 브랜딩까지 한 화면에서.<br />
+        필요한 서비스만 골라 즉시 작전 배치하세요.
+      </p>
+      <div class="hero__actions">
+        <button class="btn btn--primary btn--lg" data-popup="diagnose">
+          <span class="btn__dot"></span>
+          지금 무료진단 신청
+          <span class="btn__arrow">→</span>
+        </button>
+        <a href="#services" class="btn btn--ghost btn--lg">서비스 둘러보기</a>
+      </div>
+      <ul class="hero__stats">
+        <li>
+          <strong>3,500+</strong>
+          <span>운영 브랜드</span>
+        </li>
+        <li>
+          <strong>4.7<em>×</em></strong>
+          <span>평균 노출 상승</span>
+        </li>
+        <li>
+          <strong>24/7</strong>
+          <span>작전실 대응</span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="hero__right">
+      <div class="hero__panel">
+        <div class="panel__head">
+          <div class="panel__lights">
+            <i></i><i></i><i></i>
+          </div>
+          <span class="panel__title">RICHRUN // CONSOLE</span>
+          <span class="panel__status">● LIVE</span>
+        </div>
+        <div class="panel__body">
+          <div class="panel__row">
+            <span class="panel__label">캠페인</span>
+            <span class="panel__value">강남 신규매장 부스팅</span>
+          </div>
+          <div class="panel__row">
+            <span class="panel__label">채널</span>
+            <span class="panel__chips">
+              <em>네이버</em><em>구글</em><em>인스타</em><em>쿠팡</em>
+            </span>
+          </div>
+          <div class="panel__row">
+            <span class="panel__label">노출지수</span>
+            <span class="panel__bar"><span style="width:78%"></span></span>
+          </div>
+          <div class="panel__row">
+            <span class="panel__label">상위순위</span>
+            <span class="panel__rank">#3 <em>▲ 7</em></span>
+          </div>
+          <div class="panel__row">
+            <span class="panel__label">예약전환</span>
+            <span class="panel__value">+312%</span>
+          </div>
+          <div class="panel__terminal">
+            <span class="cursor">▮</span> 작전 배치 완료 · 다음 캠페인 추천 중...
+          </div>
+        </div>
+        <div class="panel__halftone"></div>
+      </div>
+      <div class="hero__badge">
+        <span>FREE</span>
+        <strong>1MIN<br/>DIAGNOSIS</strong>
+        <span class="hero__badge-arrow">↗</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FILTERS -->
+<section class="filters" id="services">
+  <div class="container">
+    <div class="section-head">
+      <div class="section-head__num">[ 01 / 08 ]</div>
+      <h2 class="section-head__title">전체 서비스</h2>
+      <p class="section-head__sub">카테고리 필터로 필요한 마케팅 작전만 골라보세요.</p>
+    </div>
+    <div class="filters__bar" role="tablist">
+      <button class="chip is-active" data-filter="all">전체</button>
+      <button class="chip" data-filter="traffic">유입/트래픽</button>
+      <button class="chip" data-filter="save">저장/찜</button>
+      <button class="chip" data-filter="rank">상위노출</button>
+      <button class="chip" data-filter="review">리뷰</button>
+      <button class="chip" data-filter="viral">바이럴</button>
+      <button class="chip" data-filter="content">콘텐츠</button>
+      <button class="chip" data-filter="ads">광고</button>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION: SEARCH EXPOSURE -->
+<section class="services" id="search">
+  <div class="container">
+    <div class="services__head">
+      <span class="services__index">/ 01</span>
+      <h3 class="services__title">검색노출 <em>최적화</em></h3>
+      <p class="services__count">13 서비스</p>
+    </div>
+    <div class="grid grid--4" data-grid>
+      <!-- 13 cards -->
+      <article class="card" data-type="traffic" data-channel="naver">
+        <header class="card__head"><span class="badge badge--naver">N</span><span class="card__type">트래픽</span></header>
+        <h4>플레이스 유입</h4>
+        <p>지역 키워드 기반 매장 방문 트래픽을 정밀하게 끌어옵니다.</p>
+        <ul class="card__tags"><li>지역 키워드</li><li>방문 유입</li><li>일일 분배</li></ul>
+        <button class="card__cta" data-popup="diagnose">진단 받기 <span>→</span></button>
+      </article>
+      <article class="card" data-type="traffic" data-channel="naver">
+        <header class="card__head"><span class="badge badge--naver">N</span><span class="card__type">트래픽</span></header>
+        <h4>플레이스 길찾기</h4>
+        <p>실제 길찾기 액션을 늘려 검색 알고리즘 점수를 끌어올립니다.</p>
+        <ul class="card__tags"><li>길찾기</li><li>액션</li><li>알고리즘</li></ul>
+        <button class="card__cta" data-popup="diagnose">진단 받기 <span>→</span></button>
+      </article>
+      <article class="card" data-type="save" data-channel="naver">
+        <header class="card__head"><span class="badge badge--naver">N</span><span class="card__type">저장</span></header>
+        <h4>플레이스 저장</h4>
+        <p>저장 수 증가로 노출 순위를 끌어올리는 작전을 전개합니다.</p>
+        <ul class="card__tags"><li>저장</li><li>관심</li><li>스코어업</li></ul>
+        <button class="card__cta" data-popup="diagnose">진단 받기 <span>→</span></button>
+      </article>
+      <article class="card" data-type="rank" data-channel="naver">
+        <header class="card__head"><span class="badge badge--naver">N</span><span class="card__type">상위</span></header>
+        <h4>플레이스 상위노출</h4>
+        <p>경쟁 키워드 1~3위 진입을 위한 종합 부스팅을 진행합니다.</p>
+        <ul class="card__tags"><li>1위 진입</li><li>경쟁 키워드</li><li>유지</li></ul>
+        <button class="card__cta" data-popup="diagnose">진단 받기 <span>→</span></button>
+      </article>
+      <article class="card" data-type="traffic" data-channel="google">
+        <header class="card__head"><span class="badge badge--google">G</span><span class="card__type">트래픽</span></header>
+        <h4>구글 비즈니스</h4>
+        <p>구글 비즈니스 프로필 최적화로 글로벌 검색 가시성을 확보합니다.</p>
+        <ul class="card__tags"><li>GBP</li><li>최적화</li><li>리스팅</li></ul>
+        <button class="card__cta" data-popup="diagnose">진단 받기 <span>→</span></button>
+      </article>
+      <article class="card" data-type="rank" data-channel="google">
+        <header class="card__head"><span class="badge badge--google">G</span><span class="card__type">상위</span></header>
+        <h4>구글 맵스</h4>
+        <p>외국인 고객 유입을 위한 구글맵 노출과 리뷰 자산을 키웁니다.</p>
+        <ul class="card__tags"><li>맵노출</li><li>외국인</li><li>리뷰</li></ul>
+        <button class="card__cta" data-popup="diagnose">진단 받기 <span>→</span></button>
+      </article>
+      <article class="card" data-type="traffic" data-channel="naver">
+        <header class="card__head"><span class="badge badge--naver">N</span><span class="card__type">트래픽</span></header>
+        <h4>쇼핑 유입</h4>
+        <p>네이버 쇼핑 상품 키워드 유입을 정밀하게 분배합니다.</p>
+        <ul class="card__tags"><li>상품 유입</li><li>키워드</li><li>분배</li></ul>
+        <button class="card__cta" data-popup="diagnose">진단 받기 <span>→</span></button>
+      </article>
+      <article class="card" data-type="save" data-channel="naver">
+        <header class="card__head"><span class="badge badge--naver">N</span><span class="card__type">저장</span></header>
+        <h4>쇼핑 알림설정</h4>
+        <p>쇼핑 알림설정 수를 늘려 상품 신뢰도를 부스팅합니다.</p>
+        <ul class="card__tags"><li>알림</li><li>신뢰도</li><li>지수</li></ul>
+        <button class="card__cta" data-popup="diagnose">진단 받기 <span>→</span></button>
+      </article>
+      <article class="card" data-type="save" data-channel="naver">
+        <header class="card__head"><span class="badge badge--naver">N</span><span class="card__type">저장</span></header>
+        <h4>쇼핑 찜하기</h4>
+        <p>찜 수 상승으로 상품 페이지의 검색 순위를 끌어올립니다.</p>
+        <ul class="card__tags"><li>찜</li><li>위시</li><li>스코어</li></ul>
+        <button class="card__cta" data-popup="diagnose">진단 받기 <span>→</span></button>
+      </article>
+      <article class="card" data-type="traffic" data-channel="coupang">
+        <header class="card__head"><span class="badge badge--coupang">C</span><span class="card__type">트래픽</span></header>
+        <h4>쿠팡 유입</h4>
+        <p>쿠팡 키워드 유입을 끌어와 상품 회전율을 높입니다.</p>
+        <ul class="card__tags"><li>키워드</li><li>회전</li><li>가속</li></ul>
+        <button class="card__cta" data-popup="diagnose">진단 받기 <span>→</span></button>
+      </article>
+      <article class="card" data-type="save" data-channel="coupang">
+        <header class="card__head"><span class="badge badge--coupang">C</span><span class="card__type">저장</span></header>
+        <h4>쿠팡 장바구니</h4>
+        <p>장바구니 담기 액션으로 쿠팡 알고리즘 점수를 누적시킵니다.</p>
+        <ul class="card__tags"><li>장바구니</li><li>전환</li><li>스코어</li></ul>
+        <button class="card__cta" data-popup="diagnose">진단 받기 <span>→</span></button>
+      </article>
+      <article class="card" data-type="traffic" data-channel="kakao">
+        <header class="card__head"><span class="badge badge--kakao">K</span><span class="card__type">트래픽</span></header>
+        <h4>카카오 유입</h4>
+        <p>카카오맵·카카오톡 채널 기반 유입 작전을 전개합니다.</p>
+        <ul class="card__tags"><li>카카오맵</li><li>채널</li><li>유입</li></ul>
+        <button class="card__cta" data-popup="diagnose">진단 받기 <span>→</span></button>
+      </article>
+      <article class="card" data-type="traffic" data-channel="kakao">
+        <header class="card__head"><span class="badge badge--kakao">K</span><span class="card__type">트래픽</span></header>
+        <h4>카카오톡 딜</h4>
+        <p>카카오톡 채널 친구추가 및 딜 노출을 끌어올립니다.</p>
+        <ul class="card__tags"><li>친구추가</li><li>딜</li><li>노출</li></ul>
+        <button class="card__cta" data-popup="diagnose">진단 받기 <span>→</span></button>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION: TOP RANKING -->
+<section class="services services--alt" id="ranking">
+  <div class="container">
+    <div class="services__head">
+      <span class="services__index">/ 02</span>
+      <h3 class="services__title">상위노출 <em>작전</em></h3>
+      <p class="services__count">11 서비스</p>
+    </div>
+    <div class="grid grid--4" data-grid>
+      <article class="card" data-type="rank" data-channel="naver">
+        <header class="card__head"><span class="badge badge--naver">N</span><span class="card__type">상위</span></header>
+        <h4>네이버 플레이스 1위</h4>
+        <p>핵심 지역 키워드 1위 진입을 목표로 한 풀스택 작전입니다.</p>
+        <ul class="card__tags"><li>1위</li><li>풀스택</li><li>지역</li></ul>
+        <button class="card__cta" data-popup="diagnose">진단 받기 <span>→</span></button>
+      </article>
+      <article class="card" data-type="rank" data-channel="naver">
+        <header class="card__head"><span class="badge badge--naver">N</span><span class="card__type">상위</span></header>
+        <h4>네이버 쇼핑 상위</h4>
+        <p>상품 키워드 상위노출과 매출 부스팅을 동시에 진행합니다.</p>
+        <ul class="card__tags"><li>상품</li><li>매출</li><li>지수</li></ul>
+        <button class="card__cta" data-popup="diagnose">진단 받기 <span>→</span></button>
+      </article>
+      <article class="card" data-type="rank" data-channel="coupang">
+        <header class="card__head"><span class="badge badge--coupang">C</span><span class="card__type">상위</span></header>
+        <h4>쿠팡 상위노출</h4>
+        <p>쿠팡 검색 키워드 1페이지 진입을 위한 종합 작전입니다.</p>
+        <ul class="card__tags"><li>1페이지</li><li>로켓</li><li>회전</li></ul>
+        <button class="card__cta" data-popup="diagnose">진단 받기 <span>→</span></button>
+      </article>
+      <article class="card" data-type="rank" data-channel="seo">
+        <header class="card__head"><span class="badge badge--seo">S</span><span class="card__type">상위</span></header>
+        <h4>웹사이트 SEO</h4>
+        <p>홈페이지 검색엔진 최적화로 자연 유입을 누적 자산화합니다.</p>
+        <ul class="card__tags"><li>SEO</li><li>자연유입</li><li>자산</li></ul>
+        <button class="card__cta" data-popup="diagnose">진단 받기 <span>→</span></button>
+      </article>
+      <article class="card" data-type="rank" data-channel="naver">
+        <header class="card__head"><span class="badge badge--naver">N</span><span class="card__type">상위</span></header>
+        <h4>연관검색어</h4>
+        <p>브랜드명 + 연관 키워드 자동완성 노출을 설계합니다.</p>
+        <ul class="card__tags"><li>자동완성</li><li>브랜드</li><li>연관</li></ul>
+        <button class="card__cta" data-popup="diagnose">진단 받기 <span>→</span></button>
+      </article>
+      <article class="card" data-type="rank" data-channel="naver">
+        <header class="card__head"><span class="badge badge--naver">N</span><span class="card__type">상위</span></header>
+        <h4>블로그 상위</h4>
+        <p>VIEW 탭 상위노출과 체험단 후기 정착을 동시에 전개합니다.</p>
+        <ul class="card__tags"><li>VIEW</li><li>체험단</li><li>후기</li></ul>
+        <button class="card__cta" data-popup="diagnose">진단 받기 <span>→</span></button>
+      </article>
+      <article class="card" data-type="rank" data-channel="naver">
+        <header class="card__head"><span class="badge badge--naver">N</span><span class="card__type">상위</span></header>
+        <h4>카페 상위</h4>
+        <p>대형 카페 게시판 상위 고정과 자연 노출을 작전화합니다.</p>
+        <ul class="card__tags"><li>대형카페</li><li>고정</li><li>자연</li></ul>
+        <button class="card__cta" data-popup="diagnose">진단 받기 <span>→</span></button>
+      </article>
+      <article class="card" data-type="rank" data-channel="naver">
+        <header class="card__head"><span class="badge badge--naver">N</span><span class="card__type">상위</span></header>
+        <h4>클립 상위</h4>
+        <p>네이버 클립 숏폼 상위노출로 신규 유입을 폭발시킵니다.</p>
+        <ul class="card__tags"><li>클립</li><li>숏폼</li><li>유입</li></ul>
+        <button class="card__cta" data-popup="diagnose">진단 받기 <span>→</span></button>
+      </article>
+      <article class="card" data-type="rank" data-channel="kakao">
+        <header class="card__head"><span class="badge badge--kakao">K</span><span class="card__type">상위</span></header>
+        <h4>카카오맵 상위</h4>
+        <p>카카오맵 지역 검색 상위노출과 리뷰 동시 작전입니다.</p>
+        <ul class="card__tags"><li>지역</li><li>리뷰</li><li>고정</li></ul>
+        <button class="card__cta" data-popup="diagnose">진단 받기 <span>→</span></button>
+      </article>
+      <article class="card" data-type="rank" data-channel="naver">
+        <header class="card__head"><span class="badge badge--naver">N</span><span class="card__type">상위</span></header>
+        <h4>지식인 상위</h4>
+        <p>브랜드 관련 질문/답변을 상단에 안착시켜 신뢰도를 축적합니다.</p>
+        <ul class="card__tags"><li>지식인</li><li>신뢰도</li><li>QnA</li></ul>
+        <button class="card__cta" data-popup="diagnose">진단 받기 <span>→</span></button>
+      </article>
+      <article class="card" data-type="rank" data-channel="youtube">
+        <header class="card__head"><span class="badge badge--yt">Y</span><span class="card__type">상위</span></header>
+        <h4>유튜브 상위</h4>
+        <p>유튜브 검색·추천 노출 최적화와 채널 자산화를 진행합니다.</p>
+        <ul class="card__tags"><li>검색</li><li>추천</li><li>자산화</li></ul>
+        <button class="card__cta" data-popup="diagnose">진단 받기 <span>→</span></button>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION: REVIEWS -->
+<section class="services" id="reviews">
+  <div class="container">
+    <div class="services__head">
+      <span class="services__index">/ 03</span>
+      <h3 class="services__title">리뷰 · <em>평판 관리</em></h3>
+      <p class="services__count">7 서비스</p>
+    </div>
+    <div class="grid grid--4" data-grid>
+      <article class="card" data-type="review" data-channel="naver">
+        <header class="card__head"><span class="badge badge--naver">N</span><span class="card__type">리뷰</span></header>
+        <h4>플레이스 리뷰</h4>
+        <p>실방문 기반 리뷰 누적으로 매장 신뢰지수를 키웁니다.</p>
+        <ul class="card__tags"><li>방문</li><li>사진</li><li>신뢰도</li></ul>
+        <button class="card__cta" data-popup="diagnose">진단 받기 <span>→</span></button>
+      </article>
+      <article class="card" data-type="review" data-channel="naver">
+        <header class="card__head"><span class="badge badge--naver">N</span><span class="card__type">리뷰</span></header>
+        <h4>클립 리뷰</h4>
+        <p>숏폼 리뷰 콘텐츠로 시청·노출·전환을 한 번에 끌어옵니다.</p>
+        <ul class="card__tags"><li>숏폼</li><li>시청</li><li>전환</li></ul>
+        <button class="card__cta" data-popup="diagnose">진단 받기 <span>→</span></button>
+      </article>
+      <article class="card" data-type="review" data-channel="google">
+        <header class="card__head"><span class="badge badge--google">G</span><span class="card__type">리뷰</span></header>
+        <h4>구글 리뷰</h4>
+        <p>구글 비즈니스 별점/리뷰 자산을 꾸준히 누적시킵니다.</p>
+        <ul class="card__tags"><li>별점</li><li>외국인</li><li>누적</li></ul>
+        <button class="card__cta" data-popup="diagnose">진단 받기 <span>→</span></button>
+      </article>
+      <article class="card" data-type="review" data-channel="kakao">
+        <header class="card__head"><span class="badge badge--kakao">K</span><span class="card__type">리뷰</span></header>
+        <h4>카카오맵 리뷰</h4>
+        <p>카카오맵 별점과 후기를 일관된 톤으로 축적합니다.</p>
+        <ul class="card__tags"><li>별점</li><li>톤</li><li>후기</li></ul>
+        <button class="card__cta" data-popup="diagnose">진단 받기 <span>→</span></button>
+      </article>
+      <article class="card" data-type="review" data-channel="commerce">
+        <header class="card__head"><span class="badge badge--commerce">B</span><span class="card__type">리뷰</span></header>
+        <h4>커머스 상품 리뷰</h4>
+        <p>스토어·쿠팡·11번가 상품 리뷰를 안정적으로 운영합니다.</p>
+        <ul class="card__tags"><li>스토어</li><li>쿠팡</li><li>11번가</li></ul>
+        <button class="card__cta" data-popup="diagnose">진단 받기 <span>→</span></button>
+      </article>
+      <article class="card" data-type="review" data-channel="advisory">
+        <header class="card__head"><span class="badge badge--advisory">A</span><span class="card__type">컨설팅</span></header>
+        <h4>설문 컨설팅</h4>
+        <p>고객 설문으로 약점을 진단하고 리뷰 전략을 재설계합니다.</p>
+        <ul class="card__tags"><li>설문</li><li>약점</li><li>전략</li></ul>
+        <button class="card__cta" data-popup="diagnose">진단 받기 <span>→</span></button>
+      </article>
+      <article class="card" data-type="review" data-channel="advisory">
+        <header class="card__head"><span class="badge badge--advisory">A</span><span class="card__type">컨설팅</span></header>
+        <h4>위생등급 컨설팅</h4>
+        <p>위생등급 취득 컨설팅으로 매장 신뢰도를 한 단계 끌어올립니다.</p>
+        <ul class="card__tags"><li>위생</li><li>등급</li><li>신뢰</li></ul>
+        <button class="card__cta" data-popup="diagnose">진단 받기 <span>→</span></button>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION: VIRAL -->
+<section class="services services--alt" id="viral">
+  <div class="container">
+    <div class="services__head">
+      <span class="services__index">/ 04</span>
+      <h3 class="services__title">바이럴 <em>마케팅</em></h3>
+      <p class="services__count">9 서비스</p>
+    </div>
+    <div class="grid grid--4" data-grid>
+      <article class="card" data-type="viral" data-channel="offline">
+        <header class="card__head"><span class="badge badge--offline">O</span><span class="card__type">바이럴</span></header>
+        <h4>영화관 광고</h4>
+        <p>CGV·롯데시네마·메가박스 3사 스크린 광고를 운영합니다.</p>
+        <ul class="card__tags"><li>CGV</li><li>롯데</li><li>메가박스</li></ul>
+        <button class="card__cta" data-popup="diagnose">진단 받기 <span>→</span></button>
+      </article>
+      <article class="card" data-type="viral" data-channel="naver">
+        <header class="card__head"><span class="badge badge--naver">N</span><span class="card__type">바이럴</span></header>
+        <h4>카페 대량배포</h4>
+        <p>대형 카페 동시 배포로 단기간 인지도를 확산시킵니다.</p>
+        <ul class="card__tags"><li>대량</li><li>동시</li><li>확산</li></ul>
+        <button class="card__cta" data-popup="diagnose">진단 받기 <span>→</span></button>
+      </article>
+      <article class="card" data-type="viral" data-channel="naver">
+        <header class="card__head"><span class="badge badge--naver">N</span><span class="card__type">바이럴</span></header>
+        <h4>카페 침투</h4>
+        <p>커뮤니티 톤에 맞춘 자연스러운 침투형 노출을 설계합니다.</p>
+        <ul class="card__tags"><li>침투</li><li>톤매칭</li><li>자연</li></ul>
+        <button class="card__cta" data-popup="diagnose">진단 받기 <span>→</span></button>
+      </article>
+      <article class="card" data-type="viral" data-channel="community">
+        <header class="card__head"><span class="badge badge--community">U</span><span class="card__type">바이럴</span></header>
+        <h4>커뮤니티 침투</h4>
+        <p>디시·뽐뿌·에펨 등 핵심 커뮤니티 침투 작전을 진행합니다.</p>
+        <ul class="card__tags"><li>디시</li><li>뽐뿌</li><li>에펨</li></ul>
+        <button class="card__cta" data-popup="diagnose">진단 받기 <span>→</span></button>
+      </article>
+      <article class="card" data-type="viral" data-channel="sns">
+        <header class="card__head"><span class="badge badge--sns">S</span><span class="card__type">바이럴</span></header>
+        <h4>SNS 채널 서포팅</h4>
+        <p>팔로워·좋아요·댓글까지 안정적으로 채널을 성장시킵니다.</p>
+        <ul class="card__tags"><li>팔로워</li><li>좋아요</li><li>댓글</li></ul>
+        <button class="card__cta" data-popup="diagnose">진단 받기 <span>→</span></button>
+      </article>
+      <article class="card" data-type="viral" data-channel="ig">
+        <header class="card__head"><span class="badge badge--ig">I</span><span class="card__type">바이럴</span></header>
+        <h4>인스타 / 릴스 배포</h4>
+        <p>릴스 자산을 핵심 해시태그에 노출시켜 추천피드를 점령합니다.</p>
+        <ul class="card__tags"><li>릴스</li><li>해시태그</li><li>추천</li></ul>
+        <button class="card__cta" data-popup="diagnose">진단 받기 <span>→</span></button>
+      </article>
+      <article class="card" data-type="viral" data-channel="blog">
+        <header class="card__head"><span class="badge badge--naver">N</span><span class="card__type">바이럴</span></header>
+        <h4>프리미엄 블로그 체험단</h4>
+        <p>상위 인플루언서 블로거의 진성 체험 후기 캠페인입니다.</p>
+        <ul class="card__tags"><li>상위 블로거</li><li>진성</li><li>체험</li></ul>
+        <button class="card__cta" data-popup="diagnose">진단 받기 <span>→</span></button>
+      </article>
+      <article class="card" data-type="viral" data-channel="influencer">
+        <header class="card__head"><span class="badge badge--ig">I</span><span class="card__type">바이럴</span></header>
+        <h4>인플루언서 섭외</h4>
+        <p>카테고리·팔로워 규모에 맞춘 핀포인트 섭외를 진행합니다.</p>
+        <ul class="card__tags"><li>매크로</li><li>마이크로</li><li>핀포인트</li></ul>
+        <button class="card__cta" data-popup="diagnose">진단 받기 <span>→</span></button>
+      </article>
+      <article class="card" data-type="viral" data-channel="celeb">
+        <header class="card__head"><span class="badge badge--celeb">★</span><span class="card__type">바이럴</span></header>
+        <h4>셀럽 / 연예인 섭외</h4>
+        <p>브랜드 톤에 맞는 셀럽·연예인 콜라보 캠페인을 설계합니다.</p>
+        <ul class="card__tags"><li>셀럽</li><li>연예인</li><li>콜라보</li></ul>
+        <button class="card__cta" data-popup="diagnose">진단 받기 <span>→</span></button>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION: CONTENT -->
+<section class="services" id="content">
+  <div class="container">
+    <div class="services__head">
+      <span class="services__index">/ 05</span>
+      <h3 class="services__title">콘텐츠 · 영상 · <em>촬영</em></h3>
+      <p class="services__count">3 서비스</p>
+    </div>
+    <div class="grid grid--3" data-grid>
+      <article class="card card--lg" data-type="content" data-channel="film">
+        <header class="card__head"><span class="badge badge--film">F</span><span class="card__type">제작</span></header>
+        <h4>브랜드 필름 제작</h4>
+        <p>브랜드 세계관을 영상화하는 시네마틱 필름 프로덕션입니다. 기획 · 촬영 · 편집 · 사운드까지 풀패키지로 제공합니다.</p>
+        <ul class="card__tags"><li>시네마틱</li><li>풀패키지</li><li>스토리텔링</li></ul>
+        <button class="card__cta" data-popup="diagnose">진단 받기 <span>→</span></button>
+      </article>
+      <article class="card card--lg" data-type="content" data-channel="short">
+        <header class="card__head"><span class="badge badge--film">F</span><span class="card__type">제작</span></header>
+        <h4>숏폼 영상 제작</h4>
+        <p>릴스·쇼츠·클립에 최적화된 9:16 숏폼 콘텐츠를 정기 발행합니다.</p>
+        <ul class="card__tags"><li>릴스</li><li>쇼츠</li><li>클립</li></ul>
+        <button class="card__cta" data-popup="diagnose">진단 받기 <span>→</span></button>
+      </article>
+      <article class="card card--lg" data-type="content" data-channel="web">
+        <header class="card__head"><span class="badge badge--web">W</span><span class="card__type">제작</span></header>
+        <h4>시네마틱 홈페이지</h4>
+        <p>스크롤 인터랙션과 영상 자산을 결합한 프리미엄 웹사이트입니다.</p>
+        <ul class="card__tags"><li>인터랙션</li><li>영상</li><li>프리미엄</li></ul>
+        <button class="card__cta" data-popup="diagnose">진단 받기 <span>→</span></button>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION: PRESS -->
+<section class="services services--alt" id="press">
+  <div class="container">
+    <div class="services__head">
+      <span class="services__index">/ 06</span>
+      <h3 class="services__title">보도 · <em>시상</em></h3>
+      <p class="services__count">2 서비스</p>
+    </div>
+    <div class="grid grid--2" data-grid>
+      <article class="card card--xl" data-type="content" data-channel="press">
+        <header class="card__head"><span class="badge badge--press">P</span><span class="card__type">PR</span></header>
+        <h4>보도자료 배포</h4>
+        <p>네이버·구글·다음 메이저 매체 동시 송출로 브랜드 권위를 만듭니다. 헤드라인 카피와 매체 큐레이션까지 함께 진행합니다.</p>
+        <ul class="card__tags"><li>네이버</li><li>구글</li><li>다음</li><li>헤드라인 카피</li></ul>
+        <button class="card__cta" data-popup="diagnose">진단 받기 <span>→</span></button>
+      </article>
+      <article class="card card--xl" data-type="content" data-channel="award">
+        <header class="card__head"><span class="badge badge--award">★</span><span class="card__type">시상</span></header>
+        <h4>브랜드 어워드 노미네이션</h4>
+        <p>주요 어워드 노미네이션부터 수상까지 전 과정을 컨설팅합니다.</p>
+        <ul class="card__tags"><li>노미네이션</li><li>수상</li><li>인증</li></ul>
+        <button class="card__cta" data-popup="diagnose">진단 받기 <span>→</span></button>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION: GLOBAL -->
+<section class="services" id="global">
+  <div class="container">
+    <div class="services__head">
+      <span class="services__index">/ 07</span>
+      <h3 class="services__title">글로벌 <em>마케팅</em></h3>
+      <p class="services__count">5 서비스</p>
+    </div>
+    <div class="grid grid--4" data-grid>
+      <article class="card" data-type="viral" data-channel="cn">
+        <header class="card__head"><span class="badge badge--cn">中</span><span class="card__type">CN</span></header>
+        <h4>샤오홍슈 · KOL 체험단</h4>
+        <p>중국 MZ 핵심 플랫폼 샤오홍슈 KOL 체험단을 운영합니다.</p>
+        <ul class="card__tags"><li>샤오홍슈</li><li>KOL</li><li>중국</li></ul>
+        <button class="card__cta" data-popup="diagnose">진단 받기 <span>→</span></button>
+      </article>
+      <article class="card" data-type="viral" data-channel="cn">
+        <header class="card__head"><span class="badge badge--cn">中</span><span class="card__type">CN</span></header>
+        <h4>따종디엔핑 연동</h4>
+        <p>중국 최대 매장 리뷰 플랫폼 디엔핑 등재·운영을 진행합니다.</p>
+        <ul class="card__tags"><li>디엔핑</li><li>등재</li><li>리뷰</li></ul>
+        <button class="card__cta" data-popup="diagnose">진단 받기 <span>→</span></button>
+      </article>
+      <article class="card" data-type="viral" data-channel="jp">
+        <header class="card__head"><span class="badge badge--jp">日</span><span class="card__type">JP</span></header>
+        <h4>일본 인플루언서</h4>
+        <p>일본 현지 인플루언서 섭외와 로컬 캠페인을 진행합니다.</p>
+        <ul class="card__tags"><li>일본</li><li>현지</li><li>로컬</li></ul>
+        <button class="card__cta" data-popup="diagnose">진단 받기 <span>→</span></button>
+      </article>
+      <article class="card" data-type="rank" data-channel="seo">
+        <header class="card__head"><span class="badge badge--google">G</span><span class="card__type">SEO</span></header>
+        <h4>구글 SEO 컨설팅</h4>
+        <p>글로벌 검색 노출을 위한 영문 SEO 기술 컨설팅입니다.</p>
+        <ul class="card__tags"><li>영문</li><li>기술</li><li>글로벌</li></ul>
+        <button class="card__cta" data-popup="diagnose">진단 받기 <span>→</span></button>
+      </article>
+      <article class="card" data-type="content" data-channel="menu">
+        <header class="card__head"><span class="badge badge--web">W</span><span class="card__type">제작</span></header>
+        <h4>다국어 메뉴판 제작</h4>
+        <p>한·영·중·일 다국어 메뉴판 디자인과 인쇄까지 진행합니다.</p>
+        <ul class="card__tags"><li>4개국어</li><li>디자인</li><li>인쇄</li></ul>
+        <button class="card__cta" data-popup="diagnose">진단 받기 <span>→</span></button>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION: PERFORMANCE -->
+<section class="services services--alt" id="performance">
+  <div class="container">
+    <div class="services__head">
+      <span class="services__index">/ 08</span>
+      <h3 class="services__title">퍼포먼스 <em>광고</em></h3>
+      <p class="services__count">3 서비스</p>
+    </div>
+    <div class="grid grid--3" data-grid>
+      <article class="card card--lg" data-type="ads" data-channel="naver">
+        <header class="card__head"><span class="badge badge--naver">N</span><span class="card__type">광고</span></header>
+        <h4>CPC · 파워링크 최적화</h4>
+        <p>키워드 입찰과 광고문안을 데이터 기반으로 최적화합니다.</p>
+        <ul class="card__tags"><li>입찰</li><li>광고문안</li><li>전환</li></ul>
+        <button class="card__cta" data-popup="diagnose">진단 받기 <span>→</span></button>
+      </article>
+      <article class="card card--lg" data-type="ads" data-channel="naver">
+        <header class="card__head"><span class="badge badge--naver">N</span><span class="card__type">광고</span></header>
+        <h4>GFA · 디스플레이</h4>
+        <p>네이버 GFA 디스플레이 광고 운영과 크리에이티브 A/B 테스트입니다.</p>
+        <ul class="card__tags"><li>GFA</li><li>디스플레이</li><li>A/B</li></ul>
+        <button class="card__cta" data-popup="diagnose">진단 받기 <span>→</span></button>
+      </article>
+      <article class="card card--lg" data-type="ads" data-channel="meta">
+        <header class="card__head"><span class="badge badge--ig">I</span><span class="card__type">광고</span></header>
+        <h4>인스타 · Meta 광고</h4>
+        <p>Meta 광고 매니저 운영과 크리에이티브 풀스택 관리입니다.</p>
+        <ul class="card__tags"><li>Meta</li><li>운영</li><li>크리에이티브</li></ul>
+        <button class="card__cta" data-popup="diagnose">진단 받기 <span>→</span></button>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- CTA BAND -->
+<section class="cta-band" id="contact">
+  <div class="container cta-band__inner">
+    <div class="cta-band__left">
+      <span class="cta-band__pre">[ DEPLOY NOW ]</span>
+      <h2>필요한 서비스만 골라 지금 바로 문의하세요.</h2>
+      <p>전담 마케터가 24시간 안에 배정됩니다. 매장과 브랜드에 맞춘 작전을 제안합니다.</p>
+    </div>
+    <div class="cta-band__right">
+      <button class="btn btn--primary btn--xl" data-popup="diagnose">
+        <span class="btn__dot"></span>
+        빠른 문의 신청
+        <span class="btn__arrow">→</span>
+      </button>
+      <p class="cta-band__note">전담 마케터 즉시 배정 / 답변 평균 11분</p>
+    </div>
+    <div class="cta-band__halftone"></div>
+  </div>
+</section>
+
+<!-- STATS -->
+<section class="stats">
+  <div class="container stats__grid">
+    <div class="stats__item">
+      <span class="stats__label">누적 이용 고객</span>
+      <strong class="stats__num"><span data-count="350000">350,000</span><em>+</em></strong>
+      <span class="stats__bar"></span>
+    </div>
+    <div class="stats__item">
+      <span class="stats__label">운영 브랜드</span>
+      <strong class="stats__num"><span data-count="3500">3,500</span><em>+</em></strong>
+      <span class="stats__bar"></span>
+    </div>
+    <div class="stats__item">
+      <span class="stats__label">평균 노출 상승</span>
+      <strong class="stats__num"><span data-count="4.7">4.7</span><em>×</em></strong>
+      <span class="stats__bar"></span>
+    </div>
+    <div class="stats__item">
+      <span class="stats__label">파트너 매체</span>
+      <strong class="stats__num"><span data-count="180">180</span><em>+</em></strong>
+      <span class="stats__bar"></span>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="container footer__grid">
+    <div class="footer__brand">
+      <a href="#top" class="logo logo--footer">
+        <span class="logo__mark logo__mark--sm">
+          <span class="logo__dot-grid"></span>
+          <span class="logo__letters">RR</span>
+        </span>
+        <span class="logo__wordmark">RICHRUN</span>
+      </a>
+      <p class="footer__tag">SELF MARKETING CONSOLE</p>
+      <p class="footer__copy">© 2026 RICHRUN — ALL RIGHTS RESERVED.</p>
+    </div>
+    <div class="footer__col">
+      <h5>CONTACT</h5>
+      <ul>
+        <li>전화 / 070-0000-0000</li>
+        <li>운영 / 평일 09:30 – 18:30</li>
+        <li>카카오 / @richrun</li>
+        <li>이메일 / hello@richrun.biz</li>
+      </ul>
+    </div>
+    <div class="footer__col">
+      <h5>COMPANY</h5>
+      <ul>
+        <li>회사 / 리치런 주식회사</li>
+        <li>대표 / RICHRUN</li>
+        <li>사업자등록 / 000-00-00000</li>
+        <li>주소 / 서울특별시</li>
+      </ul>
+    </div>
+    <div class="footer__col">
+      <h5>SERVICES</h5>
+      <ul>
+        <li><a href="#services">전체 서비스</a></li>
+        <li><a href="#viral">바이럴</a></li>
+        <li><a href="#global">글로벌</a></li>
+        <li><a href="#performance">퍼포먼스</a></li>
+        <li><a href="#">이용약관</a></li>
+        <li><a href="#">개인정보처리방침</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer__strip">
+    <div class="container">
+      <span>RICHRUN</span>
+      <span>SELF · MARKETING · CONSOLE</span>
+      <span>v.3 / 2026</span>
+    </div>
+  </div>
+</footer>
+
+<!-- FLOATING CTA -->
+<button class="float-cta" data-popup="diagnose" aria-label="무료진단 신청">
+  <span class="float-cta__pulse"></span>
+  <span class="float-cta__text">
+    <strong>1분 무료진단</strong>
+    <em>지금 신청하기 →</em>
+  </span>
+</button>
+
+<!-- POPUP MODAL -->
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" hidden>
+  <div class="modal__backdrop" data-close></div>
+  <div class="modal__panel">
+    <div class="modal__head">
+      <div class="modal__brand">
+        <span class="modal__pre">RICHRUN // DIAGNOSE.EXE</span>
+        <h3 id="modal-title">1분 무료진단 신청하기</h3>
+      </div>
+      <button class="modal__close" aria-label="close" data-close>✕</button>
+    </div>
+    <p class="modal__lede">매장·브랜드 정보를 남겨주세요. 전담 마케터가 24시간 안에 무료 진단 리포트를 보내드립니다.</p>
+    <form class="modal__form" id="diagnose-form" novalidate>
+      <div class="modal__field">
+        <label for="f-biz">매장 / 브랜드명</label>
+        <input id="f-biz" name="biz" required placeholder="예) 강남 RICHRUN 카페" />
+      </div>
+      <div class="modal__field">
+        <label for="f-cat">업종</label>
+        <select id="f-cat" name="category" required>
+          <option value="">선택해주세요</option>
+          <option>외식 / 카페</option>
+          <option>뷰티 / 미용</option>
+          <option>리테일 / 커머스</option>
+          <option>의료 / 클리닉</option>
+          <option>교육 / 학원</option>
+          <option>기타</option>
+        </select>
+      </div>
+      <div class="modal__field">
+        <label for="f-phone">연락처</label>
+        <input id="f-phone" name="phone" required placeholder="010-0000-0000" inputmode="tel" />
+      </div>
+      <div class="modal__field">
+        <label for="f-goal">진단 받고 싶은 항목</label>
+        <textarea id="f-goal" name="goal" rows="3" placeholder="예) 네이버 플레이스 상위 노출, 리뷰 자산, 인스타 광고"></textarea>
+      </div>
+      <label class="modal__agree">
+        <input type="checkbox" name="agree" required />
+        <span>개인정보 수집·이용에 동의합니다.</span>
+      </label>
+      <button type="submit" class="btn btn--primary btn--xl modal__submit">
+        <span class="btn__dot"></span>
+        무료 진단 신청
+        <span class="btn__arrow">→</span>
+      </button>
+    </form>
+    <div class="modal__success" hidden>
+      <div class="modal__success-mark">✓</div>
+      <h4>신청이 완료되었습니다.</h4>
+      <p>전담 마케터가 24시간 안에 연락드립니다.</p>
+      <button class="btn btn--ghost btn--lg" data-close>닫기</button>
+    </div>
+    <div class="modal__halftone"></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
